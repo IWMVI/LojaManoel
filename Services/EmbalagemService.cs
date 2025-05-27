@@ -21,7 +21,7 @@ public class EmbalagemService : IEmbalagemService
             var produtos = pedidoInput.Produtos.Select(p => new Produto
             {
                 Nome = p.Nome,
-                Altura = p.Alutra,
+                Altura = p.Altura,
                 Largura = p.Largura,
                 Comprimento = p.Comprimento
             }).ToList();
